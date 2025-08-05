@@ -6,8 +6,42 @@
     <title>Document</title>
 </head>
 <body>
-    <div id="result"></div>
-    <script src="day2.js">
+    
+    <script>
+        var name = 'mohamed';
+        console.log( name);
+        console.log( 'name is ' + typeof name);
+        var age = 20;
+        console.log( age);
+        console.log('age is '+ typeof age);
+        var isStudent = true ;
+        console.log( isStudent);
+        console.log('isStudent '+ typeof isStudent);
+        var myVar = null ;
+        console.log( myVar);
+        console.log( 'myVar ' + typeof myVar);
+        var done ;
+        console.log( done);
+        console.log('done is '+ typeof done);
+        var firstName = 'mohamed';
+        var lastName = 'ElHussein';
+        console.log(firstName +" "+ lastName)
+        console.log(`${firstName} ${lastName}`)
+        var userName = 'MOElHussein';
+        var password = 'mypass123456'; 
+        if(userName ===''){
+            alert('Username is requierd'); 
+        }
+        else if(password.length<8){
+            alert('password must be at last 8 characters ');
+
+        }
+        else{
+            console.log(userName);
+            console.log(password);
+        }
+    
+        
     </script>
 </body>
 </html>
